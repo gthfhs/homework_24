@@ -1,0 +1,24 @@
+.vertikal{
+	width: 218px;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+table {
+	border-spacing: 0;  
+	border: 2px solid #222222;
+}
+th{
+	background-color: #f8f9fa;
+	border: none;
+}
+td {
+	border-top: 1px solid #222222;
+	border-left: 1px solid #222222;
+	border-bottom: 0px;
+	border-right: 0px;
+	padding: 3px;
+	text-align: center;
+}

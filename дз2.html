@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+  <html>
+  <head>
+     <meta charset="utf-8">
+     <title>Таблица</title>
+   <link rel="stylesheet" href="дз2таблица.css">
+  </head>
+  <body>
+  	<table>
+  		<caption> <strong>Числа в разных системах счисления</strong></caption>
+       <thead>
+  		<tr>
+  			<th></th>
+  			<th colspan="8"> по горизонатли жирным - числа в 10тичной системе </th>
+  		</tr>
+  		<tr>
+  			<th> по вертикали жирным - <br> сами системы счисления</th>
+  			<th>2</th>
+			<th>3</th>
+			<th>4</th>
+			<th>5</th>
+			<th>6</th>
+			<th>7</th>
+			<th>8</th>
+			<th>9</th>
+		</tr>
+     </thead>
+     <tfoot>
+        <tr>
+          <td colspan="10">бесполезная строка, чтобы и tfoot был, и rowspan не ломался </td>
+        </tr>
+        </tfoot>
+     <tbody>
+  			<tr>
+  			    <th>2</th>
+  				<td>10</td>
+  				<td>11</td>
+  				<td>100</td>
+  				<td>101</td>
+  				<td>110</td>
+  				<td>111</td>
+  				<td>1000</td>
+  				<td>1001</td>
+  			</tr>
+  			<tr>
+  			    <th>3</th>
+  				<td rowspan="7">2</td>
+  				<td>10</td>
+  				<td>11</td>
+  				<td>12</td>
+  				<td>20</td>
+  				<td>21</td>
+  				<td>22</td>
+  				<td>100</td>
+  			</tr>
+  			<tr>
+  			    <th>4</th>
+  				<td rowspan="6">3</td>
+  				<td>10</td>
+  				<td>11</td>
+  				<td>12</td>
+  				<td>13</td>
+  				<td>20</td>
+  				<td>21</td>
+  			</tr>
+  			<tr>
+  			    <th>5</th>
+  				<td rowspan="5">4</td>
+  				<td>10</td>
+  				<td>11</td>
+  				<td>12</td>
+  				<td>13</td>
+  				<td>14</td>
+  			</tr>
+  			<tr>
+  			    <th>6</th>
+  				<td rowspan="4">5</td>
+  				<td>10</td>
+  				<td>11</td>
+  				<td>12</td>
+  				<td>13</td>
+  			</tr>
+  			<tr>
+  			    <th>7</th>
+  				<td rowspan="3">6</td>
+  				<td>10</td>
+  				<td>11</td>
+  				<td>12</td>
+  			</tr>
+  			<tr>
+  			    <th>8</th>
+  				<td rowspan="2">7</td>
+  				<td>10</td>
+  				<td>11</td>
+  			</tr>
+        <tr>
+            <th>9</th>
+          <td>8</td>
+          <td>10</td>
+        </tr>
+        </tbody>
+  	</table>
+</body>
+</html>
