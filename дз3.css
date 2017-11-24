@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,500,700&subset=cyrillic');
+body {
+    font-family: "Roboto";
+    color: #222222;
+}
+h1 {
+	font-size: 2rem;
+	font-variant: small-caps;
+	font-weight: 400;
+	text-align: center;
+}
+a { 
+    text-decoration: none;
+   } 
+
+table {
+    border: 1px solid #a2a9b1;
+    background-color: #f8f9fa;
+    float: right;
+    font-size: 70%;
+    border-spacing: 0;
+    padding: 1rem;
+}
+h2 {
+	font-size: 1.5rem;
+	font-weight: 500;
+}
+h3 {
+	font-size: 1.3rem;
+	font-weight:700;
+}
+th {
+	font-weight: 500;
+}
+.pleft {
+	float: left;
+}
+th {
+	background-color: lightsteelblue; 
+}
+figure {
+	float: right;
+	background-color: #f8f9fa;
+	border: 1px solid #e0e0e0;
+	padding: 5px;
+}
+
+figercaption {
+	font-size: 0.8rem;
+	font-style: italic;
+}
+blockquote {
+	display: table;
+	background-color: #f8f9fa;
+	padding: 5px;
+	padding-left: 25px;
+}
+.sodershanie {
+	display: table;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: 40px;
+	margin-right: 40px;
+	background-color: #f8f9fa;
+	border: 1px solid #e0e0e0;
+	padding: 15px;
+}
